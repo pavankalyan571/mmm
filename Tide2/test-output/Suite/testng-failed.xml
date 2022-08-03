@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Tide.Tide">
+        <methods>
+          <include name="whites"/>
+          <include name="liquid"/>
+          <include name="white"/>
+          <include name="Products"/>
+          <include name="driverconfig"/>
+          <include name="liqtext"/>
+          <include name="shop"/>
+          <include name="text"/>
+          <include name="driverexit"/>
+          <include name="srh"/>
+        </methods>
+      </class> <!-- Tide.Tide -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
